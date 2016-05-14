@@ -1,0 +1,22 @@
+function my_custom_admin() {
+  echo '<style>
+    
+		.customButton {
+				font-size: 	1em;
+	      width: 15%;
+
+		}
+		.customTA {
+			
+		}
+		.customText {
+			
+		}
+		.inputArea p {
+			
+		}
+		
+		</style>';
+}
+
+add_action('admin_head', 'my_custom_admin');
